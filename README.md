@@ -2,7 +2,10 @@ led-fade
 ========
 
 Rust project for the _Arduino Uno_.
-### Control the brightness of LED using Potentiometer
+## Control the brightness of LED using Potentiometer
+1. Connect LED with digital pin
+2. Connect Potentiometer with analog pin
+3. Boom! you can now control the brightness!
 
 ## Build Instructions
 1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
